@@ -1,0 +1,11 @@
+<?php
+
+{{namespace}}
+
+class BaseException extends \Exception
+{
+    public $code = 500;
+    public $message = "服务器内部错误";
+    public $data = null;
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "liujinyong/packagist-build",
+  "description": "每次开发包都很麻烦，所以写一个脚本一键创建喽",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Liujinyong\\PackagistBuild\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "KingCard",
+      "email": "893296814@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "symfony/console": "@stable",
+    "symfony/filesystem": "^5.0.0",
+    "illuminate/database": "^7.0",
+    "illuminate/events": "^7.0"
+  }
+}

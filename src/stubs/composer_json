@@ -1,0 +1,16 @@
+{
+    "name": "{{name}}",
+    "autoload": {
+        "psr-4": {
+            "{{namespace}}": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KingCard",
+            "email": "893296814@qq.com"
+        }
+    ],
+    "require": {},
+    "license": "MIT"
+}
